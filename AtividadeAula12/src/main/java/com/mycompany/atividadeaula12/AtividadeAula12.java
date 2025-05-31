@@ -87,7 +87,7 @@ public class AtividadeAula12 {
                 try {
                     lista.add(Integer.parseInt(t));
                 } catch (NumberFormatException nfe) {
-                    System.err.println("Não consegui parsear '" + t + "' como inteiro.");
+                    System.err.println("Não consegui converter '" + t + "' como inteiro.");
                 }
             }
         }
